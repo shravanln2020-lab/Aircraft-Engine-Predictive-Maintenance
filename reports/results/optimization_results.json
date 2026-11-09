@@ -1,0 +1,19 @@
+{
+    "model_name": "RandomForestRegressor (Final Optimized)",
+    "training_samples": 15952,
+    "validation_samples": 3988,
+    "cv_folds": 5,
+    "search_iterations": 10,
+    "metrics": {
+        "rmse": 34.425,
+        "mae": 28.8674,
+        "r2_score": 0.7002
+    },
+    "best_parameters": {
+        "n_estimators": 100,
+        "min_samples_split": 5,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "max_depth": 30
+    }
+}

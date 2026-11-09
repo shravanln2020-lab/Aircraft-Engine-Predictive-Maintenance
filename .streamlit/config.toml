@@ -1,0 +1,54 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  .streamlit/config.toml
+#  Streamlit Server & Theme Configuration for AEPM Dashboard
+#
+#  Applies automatically when running:
+#      streamlit run app/dashboard.py
+#
+#  Reference: https://docs.streamlit.io/library/advanced-features/configuration
+# ─────────────────────────────────────────────────────────────────────────────
+
+[browser]
+# Disable automatic browser launch when running in headless / CI environments
+gatherUsageStats = false
+
+[server]
+# Bind to all interfaces (required for Docker / remote deployments)
+address = "0.0.0.0"
+port = 8501
+# Maximum upload size for telemetry CSV files (MB)
+maxUploadSize = 200
+# Headless mode — suppress browser auto-open
+headless = true
+# Enable CORS for cross-origin access in containerised deployments
+enableCORS = false
+# Disable XSRF protection for local/Docker use (re-enable behind reverse-proxy)
+enableXsrfProtection = false
+
+[client]
+# Show error details in the UI (set to false for end-user production)
+showErrorDetails = true
+toolbarMode = "minimal"
+
+[runner]
+# Use magic comments for data display
+magicEnabled = true
+
+[theme]
+# ── AEPM Dark Navy Theme ──────────────────────────────────────────────────────
+base = "dark"
+
+# Primary accent — electric blue matching dashboard buttons
+primaryColor = "#4f8ef7"
+
+# Main background — deep dark navy
+backgroundColor = "#0d1117"
+
+# Sidebar and card background — slightly lighter navy
+secondaryBackgroundColor = "#161b22"
+
+# Body text — light slate
+textColor = "#e2e8f0"
+
+# Code / monospace font
+font = "monospace"

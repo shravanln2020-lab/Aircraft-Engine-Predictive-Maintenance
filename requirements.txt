@@ -1,0 +1,21 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  AEPM — Runtime Dependencies
+#  Aircraft Engine Predictive Maintenance using Machine Learning
+#  NASA C-MAPSS FD001 · Random Forest Regressor · Streamlit Dashboard
+# ─────────────────────────────────────────────────────────────────────────────
+#
+#  Install (inside activated venv):
+#      pip install -r requirements.txt
+#
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Core ML & Data ────────────────────────────────────────────────────────────
+numpy==2.5.1
+pandas==3.0.5
+scikit-learn==1.9.0
+scipy==1.18.0
+joblib==1.5.3
+
+# ── Dashboard & Visualisation ─────────────────────────────────────────────────
+streamlit==1.61.0
+plotly==6.9.0

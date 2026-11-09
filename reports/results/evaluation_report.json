@@ -1,0 +1,13 @@
+{
+    "model_name": "RandomForestRegressor (No Target Leakage)",
+    "training_samples": 15952,
+    "validation_samples": 3988,
+    "rmse": 31.0758,
+    "mae": 25.3116,
+    "r2_score": 0.7557,
+    "num_features_used": 67,
+    "removed_features": [
+        "life_percentage"
+    ],
+    "training_datetime": "2026-08-05 15:32:22"
+}

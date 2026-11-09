@@ -1,0 +1,48 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  .dockerignore — Docker Build Context Exclusions for AEPM
+#  Keeps the Docker image lean by excluding non-essential files.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Python Environment ────────────────────────────────────────────────────────
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Version Control ───────────────────────────────────────────────────────────
+.git/
+.gitignore
+.gitattributes
+
+# ── Development & IDE ─────────────────────────────────────────────────────────
+.agents/
+.gemini/
+.vscode/
+.idea/
+*.code-workspace
+
+# ── Notebooks (not needed at runtime) ────────────────────────────────────────
+notebooks/
+
+# ── Report Figures (large binary assets) ─────────────────────────────────────
+reports/figures/
+
+# ── Documentation Source ─────────────────────────────────────────────────────
+task.md
+
+# ── OS Artifacts ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+
+# ── Test Cache ────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/

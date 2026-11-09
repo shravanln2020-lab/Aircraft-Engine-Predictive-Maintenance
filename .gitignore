@@ -1,0 +1,8 @@
+.venv/
+app_backup_before_ui/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
