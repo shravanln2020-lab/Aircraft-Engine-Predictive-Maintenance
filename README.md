@@ -1,3 +1,9 @@
+<img width="1917" height="912" alt="Screenshot 2026-10-25 190541" src="https://github.com/user-attachments/assets/a0fefa9c-5940-4833-92b3-0589da9fca42" />
+<img width="1917" height="908" alt="Screenshot 2026-10-25 190612" src="https://github.com/user-attachments/assets/9cb2f477-2668-4c14-8c4a-78ee604444d2" />
+<img width="1916" height="910" alt="Screenshot 2026-10-25 190652" src="https://github.com/user-attachments/assets/268245d7-5eba-4975-a4b0-62bb9bd7642d" />
+<img width="1892" height="827" alt="Screenshot 2026-10-25 190719" src="https://github.com/user-attachments/assets/4fc6cc32-b411-4a5b-bfb3-6d3c7d525b33" />
+<img width="1917" height="837" alt="Screenshot 2026-10-25 190751" src="https://github.com/user-attachments/assets/fcd8592e-c2bb-45d8-b911-1ed91316fa3f" />
+<img width="1906" height="888" alt="Screenshot 2026-10-25 190823" src="https://github.com/user-attachments/assets/2a23abb0-e36f-492b-82b1-95878c1fc39a" />
 # ✈️ Aircraft Engine Predictive Maintenance (AEPM) using Machine Learning
 
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
